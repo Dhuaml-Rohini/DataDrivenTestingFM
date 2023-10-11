@@ -55,4 +55,8 @@ public class addCustomerTest extends BaseTest {
         System.out.println(ret);
         return ret;
     }
+    @Test
+    public void validateresult() {
+    	Assert.assertTrue(false);
+    }
 }
